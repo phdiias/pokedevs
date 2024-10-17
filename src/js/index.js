@@ -12,7 +12,7 @@ listaSelecaoPokedevs.forEach((pokedev) => {
   });
 });
 
-function ativarPokedevSelecionadoNaListagem(idPokedevSelecionado) {
+function ativarPokedeSelecionadovNaListagem(idPokedevSelecionado) {
   const pokedevSelecionadoNaListagem =
     document.getElementById(idPokedevSelecionado);
   pokedevSelecionadoNaListagem.classList.add('ativo');
