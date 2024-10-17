@@ -8,11 +8,11 @@ listaSelecaoPokedevs.forEach((pokedev) => {
 
     desativarPokedevNaListagem();
 
-    ativarPokedevSelecionadovNaListagem(idPokedevSelecionado);
+    ativarPokedevSelecionadoNaListagem(idPokedevSelecionado);
   });
 });
 
-function ativarPokedevSelecionadovNaListagem(idPokedevSelecionado) {
+function ativarPokedevSelecionadoNaListagem(idPokedevSelecionado) {
   const pokedevSelecionadoNaListagem =
     document.getElementById(idPokedevSelecionado);
   pokedevSelecionadoNaListagem.classList.add('ativo');
